@@ -1,0 +1,35 @@
+# Ignore target directory (compiled files, build outputs)
+target/
+
+# Ignore IntelliJ IDEA specific files and folders
+.idea/
+*.iml
+
+# Ignore Maven's default output directories
+.mvn/
+logs/
+!pom.xml
+
+# Ignore patch files (if they are not meant to be version-controlled)
+*.patch
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files created by IDEs and editors
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore class files
+*.class
+
+# Ignore compiled Java files in any subdirectory
+**/*.class
+
+# Ignore configuration override files
+application.properties.local
+*.local
